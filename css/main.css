@@ -1,0 +1,99 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+.t1 {
+  font-size: 60pt;
+}
+.t2 {
+  font-size: 20pt;
+}
+.t3 {
+  font-size: 16pt;
+}
+.t4 {
+  font-size: 13pt;
+}
+.t5 {
+  font-size: 30pt;
+}
+
+.one {
+  font-family: courier;
+  font-weight: normal;
+  text-align: left;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  left: 50px;
+}
+
+.two {
+  font-family: courier;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  left: 50px;
+}
+
+.three {
+  font-family: courier;
+  font-style: oblique;
+  text-align: left;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  left: 50px;
+}
+
+.four {
+  font-family: courier;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  left: 50px;
+  margin: 30px;
+  border-bottom: 6px dotted;
+}
+
+.body {
+  font-family: courier;
+  font-style: regular;
+  text-align: left;
+  color: #ffe080;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-rows-gap: 60px;
+  grid-auto-rows: auto;
+  padding: 20px;
+  margin-right: 300px;
+  box-shadow: 0 0 70px 50px #ffe080;
+  background-color: #ff08c3;
+}
+
+.side {
+  font-size: 80px;
+  font-weight: regular;
+  color: black;
+  font-family: courier;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: fixed;
+  right: 80px;
+  top: 50px;
+  text-shadow: 10px 20px #ffe080;
+}
